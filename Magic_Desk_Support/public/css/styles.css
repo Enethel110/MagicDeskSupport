@@ -1,0 +1,46 @@
+.custom-label {
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 15px;
+  margin: 0.2em;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.label-danger {
+  background-color: #dc3545; /* Rojo */
+  color: #ffffff;
+}
+
+.label-primary {
+  background-color: #007bff; /* Azul */
+  color: #ffffff;
+}
+
+.label-success {
+  background-color: #28a745; /* Verde */
+  color: #ffffff;
+}
+
+.label-warning {
+  background-color: #ffc107; /* Amarillo */
+  color: #212529;
+}
+
+.label-info {
+  background-color: #17a2b8; /* Cian */
+  color: #ffffff;
+}
+
+/* Efecto de sombra y hover para una apariencia más moderna */
+.custom-label {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-label:hover {
+  filter: brightness(1.1);
+}
